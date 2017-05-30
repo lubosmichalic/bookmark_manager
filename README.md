@@ -1,4 +1,6 @@
-# bookmark_manager
+# Bookmark Manager
+
+Let's organise those blogposts and articles that need reading!!
 
 ```
 **USER STORY 1**
