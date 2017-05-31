@@ -1,0 +1,26 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/dominicmcdonnell/Desktop/Walter/Projects/Week_4/bookmark_manager/spec/features/view_links_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/dominicmcdonnell/Desktop/Walter/Projects/Week_4/bookmark_manager/spec/link_spec.rb": [
+
+      ]
+    },
+    "timestamp": 1496228916
+  }
+}
