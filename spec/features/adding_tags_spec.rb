@@ -9,4 +9,15 @@ feature 'adding tags' do
     link = Link.first
     expect(link.tags.map(&:name)).to include('news')
   end
+
+  scenario 'Adds multiple tags to a link' do
+    visit '/links/new'
+    fill_in 'url', with: "http://www.zombo.com/"
+    fill_in 'title', with: 'Zombocom'
+    fill_in 'tags', with: 'zombo, welcome'
+
+    click_button 'Create link'
+    link = Link.first
+    expect(link.tags.map(&:name)).to include('zombo', 'welcome')
+  end
 end
