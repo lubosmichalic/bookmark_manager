@@ -11,4 +11,7 @@ feature 'Sign Up' do
     expect(page).to have_content 'passwords do not match'
   end
 
+  scenario 'must enter a valid email' do
+    expect { sign_up(email: nil) }.not_to change(User, :count)
+  end
 end
