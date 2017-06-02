@@ -7,9 +7,8 @@ feature 'Sign Up' do
 
   scenario 'password match validation' do
     expect { sign_up(password_confirmation: 'notthepassword') }.not_to change(User, :count)
+    expect(current_path).to eq('/signup')
+    expect(page).to have_content 'passwords do not match'
   end
+
 end
-
-
-# expect(page).not_to have_content 'Welcome, john@doe.com'
-# expect(page).to have_content 'passwords do not match'

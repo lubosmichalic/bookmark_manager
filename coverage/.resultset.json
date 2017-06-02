@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/dominicmcdonnell/Desktop/Walter/Projects/Week_4/bookmark_manager/spec/features/adding_tags_spec.rb": [
+      "/Users/lubosmich/Projects/bookmark_manager/spec/features/adding_tags_spec.rb": [
         1,
         1,
         1,
@@ -26,7 +26,7 @@
         null,
         null
       ],
-      "/Users/dominicmcdonnell/Desktop/Walter/Projects/Week_4/bookmark_manager/spec/features/creating_links_spec.rb": [
+      "/Users/lubosmich/Projects/bookmark_manager/spec/features/creating_links_spec.rb": [
         null,
         null,
         null,
@@ -46,7 +46,7 @@
         null,
         null
       ],
-      "/Users/dominicmcdonnell/Desktop/Walter/Projects/Week_4/bookmark_manager/spec/features/user_signin_spec.rb": [
+      "/Users/lubosmich/Projects/bookmark_manager/spec/features/user_signin_spec.rb": [
         1,
         1,
         2,
@@ -56,57 +56,56 @@
         null,
         1,
         2,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/dominicmcdonnell/Desktop/Walter/Projects/Week_4/bookmark_manager/spec/features/view_links_spec.rb": [
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/dominicmcdonnell/Desktop/Walter/Projects/Week_4/bookmark_manager/spec/link_spec.rb": [
+      "/Users/lubosmich/Projects/bookmark_manager/spec/features/view_links_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/lubosmich/Projects/bookmark_manager/spec/link_spec.rb": [
 
       ]
     },
-    "timestamp": 1496399341
+    "timestamp": 1496401856
   }
 }
