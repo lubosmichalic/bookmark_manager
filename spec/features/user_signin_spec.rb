@@ -8,10 +8,22 @@ feature 'Sign Up' do
   scenario 'password match validation' do
     expect { sign_up(password_confirmation: 'notthepassword') }.not_to change(User, :count)
     expect(current_path).to eq('/signup')
-    expect(page).to have_content 'passwords do not match'
+    expect(page).to have_content 'Password does not match the confirmation'
   end
 
   scenario 'must enter a valid email' do
     expect { sign_up(email: nil) }.not_to change(User, :count)
+    expect(page).to have_content('Email must not be blank')
+  end
+
+  scenario 'must enter a valid email' do
+    expect { sign_up(email: 'john@doe') }.not_to change(User, :count)
+    expect(page).to have_content('Email has an invalid format')
+  end
+
+  scenario 'must use unique email' do
+    sign_up
+    expect { sign_up }.not_to change(User, :count)
+    expect(page).to have_content('Email is already taken')
   end
 end
