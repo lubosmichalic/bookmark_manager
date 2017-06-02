@@ -6,6 +6,7 @@ require 'simplecov'
 require 'simplecov-console'
 require './app/models/link'
 require './app/app'
+require 'web_helpers'
 
 # require File.join(File.dirname(__FILE__), '..', 'app/app.rb')
 ENV['RACK_ENV'] = 'test'
